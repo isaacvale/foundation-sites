@@ -51,7 +51,7 @@
       clear: both;
     }
 
-    &:last-child {
+    &:visible:last-child {
       float: $global-left;
     }
   }
