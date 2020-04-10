@@ -47,7 +47,7 @@
       clear: none;
     }
 
-    &:nth-of-type(#{$n}n+1) {
+    &:visible:nth-of-type(#{$n}n+1) {
       clear: both;
     }
 
